@@ -38,4 +38,13 @@ To reduce sensor noise and allow averaging across laps, telemetry points are dis
 Average profiles are plotted using Matplotlib:
 - consistent driver color mapping via get_driver_color
 - dashed line styles to visually distinguish Stroll from Alonso
-- apex location marked with a vertical reference line,
+- apex location marked with a vertical reference line
+
+Drivers selected for comparative analysis include:
+- Oscar Piastri (McLaren)
+- George Russell (Mercedes)
+- Charles Leclerc (Ferrari)
+
+## Conclusion
+- The decelerations of Aston Martin drivers are smaller than that of other drivers, seen from the relatively flatter lines reprensenting Alonso and Stroll.
+- There is a measurable lag in the transition from deceleration to acceleration for AM drivers past turn 12 apex. While other drivers stabilize their minimum speed near the Apex, AM drivers, particularly Stroll, continue to decelerate after exiting turn 12.
